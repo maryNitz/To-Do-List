@@ -1,0 +1,42 @@
+html body{
+    background-color: rgb(58, 55, 55);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+
+.headline{
+    color: white;
+    text-align: center;
+}
+
+.nav-item .listen{
+    color:grey;
+
+}
+
+.nav-item .listen:hover,
+.nav-item .listen:focus{
+    color: white;
+}
+
+.img{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin: 15px;
+}
+.bnb{
+    margin: 10px;
+    border-radius: 30%;
+    background-color: grey;
+}
+.bnb:hover{
+    color:white;
+}
