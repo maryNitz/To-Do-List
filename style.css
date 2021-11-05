@@ -1,0 +1,99 @@
+html body{
+    background-color: rgb(58, 55, 55);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+
+.headline{
+    color: white;
+    text-align: center;
+    margin: 15px;
+}
+
+.nav-item .listen{
+    color:grey;
+
+}
+
+.nav-item .listen:hover,
+.nav-item .listen:focus{
+    color: white;
+}
+
+.img{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin: 15px;
+}
+.bnb{
+    margin: 10%;
+    background-color: grey;
+    height: 6em;
+    width: 6em;
+    padding-top: 15px;
+}
+
+
+
+.bnb:hover{
+    color:white;
+}
+
+.container{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin: 15px;
+}
+
+.suchfeld,
+.suchfeld:focus-visible{
+    background-color: rgb(179, 174, 174);
+    width: 65%;
+    height: 50px;
+    outline: grey;
+}
+
+.plusbnb{
+    background-color: grey;
+    margin: 2px 1.5px ;
+    height: 50px;
+    padding-right: 9px;
+   
+}
+
+.inputfeld{
+    display:flex;
+    justify-content: center;
+    
+}
+.input-group  {
+width: 600px;
+background-color: rgb(214, 209, 209);
+ }
+
+ .form-control,
+ .form-control:focus{
+    box-shadow: white!important;
+    background-color: rgb(245, 243, 243)!important;
+    outline: white;
+
+ }
+
+ .bnb-trash{
+     height: 100%;
+    
+ }
+.input-container{
+    display: flex;
+    flex-grow: 1;
+
+}
