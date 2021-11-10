@@ -1,99 +1,143 @@
-html body{
-    background-color: rgb(58, 55, 55);
+html body {
+  background-color: rgb(95, 93, 93);
 }
 
-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    text-align: center;
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+
+.headline {
+  color: white;
+  justify-content: center;
+  margin-top: 2%;
+  
+  
 }
 
 
-.headline{
-    color: white;
-    text-align: center;
-    margin: 15px;
+
+.div-input,
+.div-input:focus-visible {
+  margin: 2%;
+  display: flex;
+  flex-grow: 1;
+  border-color: white;
+  
+  
 }
 
-.nav-item .listen{
-    color:grey;
 
+
+.search-bnb {
+  height: 100%;
+  background-color: rgb(214, 212, 212);
+  box-shadow: none;
+  border-color: rgb(150, 148, 148);
+  justify-content: flex-end;
+}
+
+.nav-item .listen {
+  color: rgb(136, 134, 134);
 }
 
 .nav-item .listen:hover,
-.nav-item .listen:focus{
-    color: white;
+.nav-item .listen:focus {
+  color: white;
 }
 
-.img{
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    margin: 15px;
+.img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px;
 }
-.bnb{
-    margin: 10%;
-    background-color: grey;
-    height: 6em;
-    width: 6em;
-    padding-top: 15px;
-}
-
-
-
-.bnb:hover{
-    color:white;
+.bnb {
+  margin: 10%;
+  background-color: rgb(150, 148, 148);
+  height: 6em;
+  width: 6em;
+  padding-top: 15px;
 }
 
-.container{
-display: flex;
-flex-direction: row;
-justify-content: center;
-margin: 15px;
+.bnb:hover {
+  color: white;
+}
+
+.container-plus {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 15px auto;
+  background-color: rgb(179, 174, 174);
+  width: 65%;
 }
 
 .suchfeld,
-.suchfeld:focus-visible{
-    background-color: rgb(179, 174, 174);
-    width: 65%;
-    height: 50px;
-    outline: grey;
+.suchfeld:focus-visible {
+  flex-grow: 1;
+  height: 50px;
+  outline: none;
+  border-color: white;
+  box-shadow: none;
 }
 
-.plusbnb{
-    background-color: grey;
-    margin: 2px 1.5px ;
-    height: 50px;
-    padding-right: 9px;
-   
+.plusbnb,
+.plusbnb:focus {
+  background-color: rgb(214, 212, 212);
+  box-shadow: none;
 }
 
-.inputfeld{
-    display:flex;
-    justify-content: center;
-    
+.inputfeld {
+  display: flex;
+  justify-content: center;
 }
-.input-group  {
-width: 600px;
-background-color: rgb(214, 209, 209);
- }
-
- .form-control,
- .form-control:focus{
-    box-shadow: white!important;
-    background-color: rgb(245, 243, 243)!important;
-    outline: white;
-
- }
-
- .bnb-trash{
-     height: 100%;
-    
- }
-.input-container{
-    display: flex;
-    flex-grow: 1;
-
+.input-group {
+  width: 600px;
+  background-color: rgb(214, 209, 209);
 }
+
+.form-control,
+.form-control:focus {
+  box-shadow: white;
+  background-color: rgb(245, 243, 243);
+  outline: white;
+}
+
+.bnb-trash {
+  height: 100%;
+}
+.input-container {
+  display: flex;
+  flex-grow: 1;
+}
+
+.add:focus {
+  box-shadow: none;
+}
+
+.picture {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sport1 {
+  margin-top: 15%;
+}
+
+.footer {
+  display: flex;
+  flex-grow: 1;
+}
+
+.search:focus-visible,
+.search{
+    outline: none;
+    height: 30px;
+    margin-left:85%;
+     
+  }
+
